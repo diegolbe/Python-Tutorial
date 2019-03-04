@@ -1,0 +1,45 @@
+first_name = "Jimmy"
+last_name = 'G'
+print(first_name + " " + last_name)
+name = "Jimmy G"
+first_letter = name[0]
+print(first_letter)
+
+second_letter = name[1]
+print(second_letter)
+last_letter = name[-1]
+print(last_letter)
+first_six_letters = name[0:7]
+print(first_six_letters)
+print(len("The49ersarewinningsuperbowl54"))
+print(len("JimmyG>TomBrady"))
+print(len("jiuhgdiuahiuoihougyiuyoaifduhyhbyugldifhu"))
+sentence = "I do what I like, I do, I do"
+# print("do" in sentence)
+# print("boss" in sentences
+#
+# uppercase = sentence.lower()
+# print(lowercase)
+# sentence = "   I STILL SEE YOUR SHADOWS IN MY ROOM   "
+# lowercase_sentence = sentence.lower()
+# print(lowercase_sentence)
+dreams = []
+dreams.append("flying dream")
+dreams.append("forgot something")
+dreams.append("saw a friend from a long time ago")
+dreams.append(100)
+dreams.append("whatever")
+# print(dreams)
+['flying dream', 'forgot something', 'saw a friend from a long time ago', 100, 'whatever']
+len(dreams)
+# prints whatever - the last item
+
+# you can access part of a list with a ":"
+for x in range(0, 2):
+  print(x)
+  content = open("waveslyrics.txt", "r").read()
+loud_waves = content.upper()
+print(loud_waves)
+all_lines = open("waveslyrics.txt", "r").readlines()
+for line in all_lines:
+	print(line[0:4])
